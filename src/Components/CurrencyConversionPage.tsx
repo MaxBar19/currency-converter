@@ -1,6 +1,6 @@
-import Rates from './rates'
+import Rates from '../rates'
 import { useState } from "react";
-import { CURRENCIES } from './const';
+import { CURRENCIES } from '../const';
 import CurrencyInput from './CurrencyInput';
 
 interface CurrencyConversionPageProps {

@@ -1,8 +1,8 @@
 import './App.css';
-import useFetch from './useFetch';
+import useFetch from './Hooks/useFetch';
 import { CURRENCY_CODES } from './const'
 import Rates from './rates'
-import CurrencyConversionPage from './CurrencyConversionPage';
+import CurrencyConversionPage from './Components/CurrencyConversionPage';
 
 interface FixerResponse {
   success: boolean,

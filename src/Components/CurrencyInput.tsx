@@ -1,8 +1,8 @@
 import React from 'react'
 import propTypes from "prop-types"
 import { useState, useEffect } from "react";
-import { CURRENCY_CODES } from './const'
-import Rates from './rates'
+import { CURRENCY_CODES } from '../const'
+import Rates from '../rates'
 
 interface CurrencyInputProps {
   value: number,
